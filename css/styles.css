@@ -1,11 +1,46 @@
 body {
-    background-color: #212121;
-    color: red;
+  background-color: #f5f5f5;
+  font-family: Roboto;
 }
-.site-nav {
-    color: #212121;
+/* body {
+  background-color: var(--background-color);
+  color: var(--main-text-color);
+  font-family: var(--main-font);
+  font-size: 14px;
+  letter-spacing: 0.03em;
+} */
+
+/* шапка  */
+
+.page-header {
+  background-color: #ffffff;
 }
-.site-nav:hover,
-.site-nav:focus {
-    color: #2196F3;
+.logo {
+  color: #2196f3;
+  text-decoration: none;
 }
+.studio {
+  color: #000000;
+}
+.link {
+  color: #212121;
+  text-decoration: none;
+}
+.link:hover,
+.link:focus {
+  color: #2196f3;
+}
+.list {
+  list-style: none;
+}
+
+/* секція 1 */
+
+/* сеуція 2 */
+.section-title {
+  color: 212121;
+}
+/* 212121чорний  */
+/* 757575сірий */
+/* 2196F3 синій */
+/* rbga FFFFFF 60% */
