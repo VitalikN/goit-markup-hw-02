@@ -52,7 +52,7 @@ body {
 }
 /* .contact-link-icon:hover,
 .contact-link-icon:focus {
-  color:  ;
+  color: var(--accent-color);
 } */
 /* секція 1 */
 .hero,
