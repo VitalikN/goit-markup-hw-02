@@ -8,7 +8,10 @@
 body {
   background-color: #f5f4fa;
   color: var(--primari-text-color);
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
 }
 /* body {
   background-color: var(--background-color);
@@ -26,9 +29,18 @@ body {
 .logo {
   color: var(--accent-color);
   text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
 }
 .studio {
   color: #000000;
+}
+
+.site-nav.list {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 .link {
   color: var(--primari-text-color);
@@ -39,8 +51,14 @@ body {
   color: var(--accent-color);
 }
 
-.list {
+ul {
   list-style: none;
+}
+
+.contact.list {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 .contact-link {
   color: var(--title-text-color);
@@ -50,29 +68,43 @@ body {
 .contact-link:focus {
   color: var(--accent-color);
 }
-/* .contact-link-icon:hover,
-.contact-link-icon:focus {
-  color: var(--accent-color);
-} */
+
 /* секція 1 */
 .hero,
 .footer {
-  background: #2f303a;
+  background-color: #2f303a;
 }
 
 .hero-title {
   color: var(--primary-bg-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 /* кнопка */
+.button {
+  cursor: pointer;
+  font-size: 16px;
+  text-align: center;
+}
 .button.primary {
   color: var(--primary-bg-color);
   background-color: var(--accent-color);
+  font-weight: 700;
+  line-height: 1.9;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.06em;
 }
 .button.secodary {
   color: var(--primari-text-color);
   background-color: #f5f4fa;
-  cursor: pointer;
+  font-weight: 500;
+  line-height: 1.6;
 }
 .button.secodary:hover,
 .button.secodary:focus {
@@ -81,12 +113,30 @@ body {
 }
 
 /* сеуція 2 */
+.feature-list .title {
+  font-weight: 700;
+  line-height: 1.1;
+  text-transform: uppercase;
+}
+.feature-list .text {
+  color: var(--title-text-color);
+  line-height: 1.7;
+}
 
 /* секція 3 */
 .section-title {
   color: var(--primari-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  text-align: center;
 }
 /* 4 */
+.work-list h3 {
+  font-weight: 500;
+}
+.work-list p {
+  color: var(--title-text-color);
+}
 
 .footer-link,
 .footer-studio {
@@ -96,4 +146,20 @@ body {
 .footer-contact {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
+}
+.footer .list {
+  line-height: 1.7;
+}
+/* проджект */
+
+.sidebar h2 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.sidebar p {
+  color: var(--title-text-color);
+  font-size: 16px;
+  line-height: 1.9;
 }
