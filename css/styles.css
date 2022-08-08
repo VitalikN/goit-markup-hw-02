@@ -150,8 +150,12 @@ ul {
 .footer .list {
   line-height: 1.7;
 }
-/* проджект */
 
+/* проджект */
+.sidebar a {
+  color: var(--primari-text-color);
+  text-decoration: none;
+}
 .sidebar h2 {
   font-weight: 700;
   font-size: 18px;
