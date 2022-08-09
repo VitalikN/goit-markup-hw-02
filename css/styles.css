@@ -151,6 +151,11 @@ ul {
   line-height: 1.7;
 }
 
+.footer-contact:hover,
+.footer-contact:focus {
+  color: var(--accent-color);
+}
+
 /* проджект */
 .sidebar a {
   color: var(--primari-text-color);
