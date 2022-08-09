@@ -4,7 +4,7 @@
   --accent-color: #2196f3;
   --primary-bg-color: #ffffff;
   --: #eeeeee;
-  --: #000000;
+  --studio: #000000;
   --background: #f5f4fa;
   --contact: rgba(255, 255, 255, 0.6);
   --heder-footer: #2f303a;
@@ -42,7 +42,7 @@ body {
   line-height: 1.2;
 }
 .studio {
-  color: #000000;
+  color: var(--studio);
 }
 
 .nav-link {
