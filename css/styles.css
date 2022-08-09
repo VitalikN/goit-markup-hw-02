@@ -137,7 +137,7 @@ ul {
 .work-list p {
   color: var(--title-text-color);
 }
-
+/* ФУТЕР */
 .footer-link,
 .footer-studio {
   color: var(--primary-bg-color);
@@ -149,6 +149,11 @@ ul {
 }
 .footer .list {
   line-height: 1.7;
+}
+
+.footer-link:hover,
+.footer-link:focus {
+  color: var(--accent-color);
 }
 
 .footer-contact:hover,
