@@ -51,7 +51,7 @@ body {
   color: var(--accent-color);
 }
 
-ul {
+.list {
   list-style: none;
 }
 
